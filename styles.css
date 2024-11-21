@@ -1,0 +1,154 @@
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(120deg, #ffecb3, #ffe082);
+    color: #4b2e1f;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2em 1em;
+    background: linear-gradient(to right, #ffd54f, #ffb74d);
+    color: #ffffff;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-top: 0.5em;
+    font-weight: 300;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 2em;
+  }
+  
+  .hero-image {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .content {
+    text-align: center;
+    padding: 2em 1em;
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .benefits {
+    padding: 1.5em 2em;
+  }
+  
+  .benefits h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .benefits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .benefits li {
+    background: #ffe082;
+    margin: 0.8em 0;
+    padding: 0.8em;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  footer {
+    background: #4b2e1f;
+    color: #ffffff;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .footer-content {
+    margin-bottom: 1.5em;
+  }
+  
+  .footer-content .logo {
+    width: 80px;
+  }
+  
+  .footer-content p {
+    font-size: 0.9rem;
+    margin: 0.5em 0;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 1em;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h3 {
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #4b2e1f;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.7em;
+    margin: 0.7em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #ffb74d;
+  }
+  
+  .contact-form button {
+    display: block;
+    width: 100%;
+    padding: 0.8em;
+    background: #ffd54f;
+    border: none;
+    border-radius: 5px;
+    color: #4b2e1f;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contact-form button:hover {
+    background: #ffb74d;
+    transform: scale(1.05);
+  }
+  
